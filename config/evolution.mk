@@ -2,10 +2,8 @@
 PRODUCT_PACKAGES += \
     EvoEgg
 
-ifeq ($(EVO_BUILD_TYPE),Official)
 PRODUCT_PACKAGES += \
     Updater
-endif
 
 ifeq ($(TARGET_SUPPORTS_64_BIT_APPS),true)
 PRODUCT_PACKAGES += \
